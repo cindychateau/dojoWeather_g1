@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:#9fc5f8;
+}
+
+nav {
+    width: 1000px;
+    display:flex;
+    align-items: center;
+    height: 80px;
+    margin: 0 auto;
+    justify-content: space-between;
+    color: white;
+}
+
+nav ul {
+    width: 40%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.sanjose {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+.row {
+    display: flex;
+    margin-top: 15px;
+}
+
+.dia {
+    background-color: lightgrey;
+    text-align: center;
+    flex: 1;
+    margin-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.dia h2 {
+    margin-bottom: 10px;
+}
+
+.dia img {
+    width: 100px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.dia p {
+    margin-bottom: 10px;
+}
+
+.temperaturas {
+    display:flex;
+    justify-content: space-around;
+}
+
+.tempMax {
+    color: red;
+}
+
+.tempMin {
+    color: blue;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.cookie {
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+}
