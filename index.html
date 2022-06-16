@@ -30,7 +30,7 @@
             <h2>San José</h2>
             <form>
                 <label>show temperature in</label>
-                <select>
+                <select onchange="cambiaTemperatura(this)">
                     <option>C</option>
                     <option>F</option>
                 </select>
@@ -42,8 +42,8 @@
                 <img src="images/some_clouds.png" alt="nubes" />
                 <p>parcialmente nubl</p>
                 <div class="temperaturas">
-                    <span class="tempMax">25</span>
-                    <span class="tempMin">18</span>
+                    <span id="temperatura1" class="tempMax">25</span>
+                    <span id="temperatura2" class="tempMin">18</span>
                 </div>
             </div>
             <div class="dia">
@@ -51,8 +51,8 @@
                 <img src="images/some_clouds.png" alt="nubes" />
                 <p>parcialmente nubl</p>
                 <div class="temperaturas">
-                    <span class="tempMax">25</span>
-                    <span class="tempMin">18</span>
+                    <span id="temperatura3" class="tempMax">25</span>
+                    <span id="temperatura4" class="tempMin">18</span>
                 </div>
             </div>
             <div class="dia">
@@ -60,8 +60,8 @@
                 <img src="images/some_clouds.png" alt="nubes" />
                 <p>parcialmente nubl</p>
                 <div class="temperaturas">
-                    <span class="tempMax">25</span>
-                    <span class="tempMin">18</span>
+                    <span id="temperatura5" class="tempMax">25</span>
+                    <span id="temperatura6" class="tempMin">18</span>
                 </div>
             </div>
             <div class="dia">
@@ -69,8 +69,8 @@
                 <img src="images/some_clouds.png" alt="nubes" />
                 <p>parcialmente nubl</p>
                 <div class="temperaturas">
-                    <span class="tempMax">25</span>
-                    <span class="tempMin">18</span>
+                    <span id="temperatura7" class="tempMax">25</span>
+                    <span id="temperatura8" class="tempMin">18</span>
                 </div>
             </div>
         </div>
